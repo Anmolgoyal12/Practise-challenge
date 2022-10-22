@@ -1,0 +1,19 @@
+import java.io.*;
+import java.util.Scanner;
+import java.text.*;
+import java.math.*;
+import java.util.regex.*;
+
+public class Solution {
+
+    public static void main(String[] args)
+     {
+         String s;
+         int start,end;
+        Scanner in = new Scanner(System.in);
+        String S = in.next();
+        start = in.nextInt();
+        end = in.nextInt();
+        System.out.println(S.substring(start,end));
+    }
+}

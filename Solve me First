@@ -1,0 +1,25 @@
+#include<stdio.h>
+//Function declaration
+int solveMeFirst(int,int);
+
+//Function definition
+int solveMeFirst(int a,int b)
+{
+    int c;
+    c=a+b;
+    return c;
+}
+
+int  main()
+{
+  int a,b,n2; 
+//Read the input from user.
+  scanf("%d\n",&a);
+  scanf("%d\n",&b);
+  
+//Function calling
+  n2=solveMeFirst(a, b);
+//Displaying value after adding value 
+printf("%d",n2);
+    return 0; 
+}

@@ -1,0 +1,18 @@
+#include <iostream>
+#include <string>
+using namespace std;
+
+int main() {
+	// Complete the program
+  string a,b,c;
+  cin>>a;
+  cin>>b;
+  int leng=a.size();
+  int leng1=b.size();
+  c=a+b;
+  swap(a[0],b[0]);
+  cout<<leng<<" "<<leng1;
+  cout<<endl<<c;
+  cout<<endl<<a<<" "<<b<<endl;
+    return 0;
+}

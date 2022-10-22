@@ -1,0 +1,31 @@
+#include<stdio.h>
+
+int simpleArraySum(int arr[],  int n)
+{
+    int sum = 0;  // accumulate sum in this variable
+    int i;
+    // Iterate through all elements
+    // and add them to sum
+    for (i = 0; i < n; i++)
+    {
+        sum = sum+arr[i];
+    }
+    return sum;
+}
+
+
+
+
+int main()
+{
+    int arr[1000],i,N;
+    // length of the array
+    scanf("%d",&N);
+    for(i=0;i<N;i++)
+    {
+        scanf("%d",&arr[i]);
+    }
+    int sum =  simpleArraySum(arr,N);
+    printf("%d\n", sum);
+    return 0;
+}
